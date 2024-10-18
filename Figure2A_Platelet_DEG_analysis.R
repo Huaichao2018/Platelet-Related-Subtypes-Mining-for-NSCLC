@@ -2,7 +2,7 @@
 library(tidyverse)
 
 # Set result path
-out_home <- "~/project/Poroject/F210823005_NSCLC_platelet/aftersale3/"
+out_home <- "D:/r_workplace/OUT"
 setwd(out_home)
 od <- str_glue("{out_home}/1.molecular_characteristics")
 load("data/train_data.RData",
